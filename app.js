@@ -5,8 +5,6 @@ const {open} = require("sqlite")
 const sqlite3 = require("sqlite3")
 const path = require("path")
 const pathFile = path.join(__dirname,"todoApplication.db")
-const bcrypt = require("bcrypt")
-const jwt = require("jsonwebtoken")
 const addDays = require("date-fns/addDays")
 let db = null
 const connectingDatabase = async()=>{
